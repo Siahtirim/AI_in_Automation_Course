@@ -20,7 +20,7 @@ class VideoDurationApp(ctk.CTk):
         # ===== Title =====
         self.title_label = ctk.CTkLabel(
             self,
-            text="🎬 MP4 Duration Calculator",
+            text="🎬 MP4 Duration & Size Calculator",
             font=("Arial", 26, "bold")
         )
         self.title_label.pack(pady=20)
